@@ -1,0 +1,59 @@
+Class1 on 19-07-2012
+
+Intelligence : Wiki says intelligence includes abstract thought, understanding, self-awareness, communication, reasoning, learning, emotional knowledge, retaining, planning, problem solving.
+
+Artificial Intelligence : Intelligence of machines.
+The branch of CS which aims to create it through study of intelligent agents.
+John McCarthy coined the term 'Artificial Intelligence'.
+
+Intelligent Agents : Autonomous entity which observes through sensors, acts upon a environment and directs it's activity towards achieving goals.
+
+Strong AI : Artificial Intelligence that matches or exceeds human intelligence.
+The other extreme of strong AI is applied AI or weak AI
+
+IBM Watsom : AI computer system that is capable of answering questions posed in Natural Language 
+It can run many algorithms to find correct answer. The more algos that give same answer, more likely the answer is to be correct. It'll then check against database to ascertain whether solution makes sense.
+
+Web 1.0: Democratised access to information
+Web 2.0: Right to assembly. Collaboration
+Web 3.0: Semantic Web (Web 3.0)
+
+dBpedia : attempts to extract structured info from Wikipedia.
+
+Puzzle (in class):
+-----     -----     -----     -----
+| 1 |     | 2 |     | 3 |     | 4 |
+-----     -----     -----     -----
+There are 4 boxes and label on them
+1 : not here
+2 : in 3
+3 : in 4
+4 : 2 is lying
+Only one of the label is true others are false.
+If both 2 and 4 are false, that means
+-not in 3 and -2 is saying truth (in 3)
+Not feasible
+say 4 is true, others false. implies 
+-in 1 -not in 3 -not in 4 -2 is lying
+feasible! => It's in 1 and 4 is saying truth.
+
+**(Programming HW) Knight's tour :
+Q: In a chessboard of size 8X8 , given a position of a knight, find a tour which will go to each of the squares exactly once.
+
+Course Plan:
+-Search
+-Reasoning
+-Learning
+-Semantic Web / Knowledge graph
+
+Grading scheme:
+Quiz1   |
+Midsem  ) 60
+Quiz2   ) marks
+Endsem  |
+2 Programming assignments } 15m
+-Search(game)
+-???
+Course Project      } 25m
+-Speech processing
+-In teams of 3/4.
