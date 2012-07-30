@@ -1,0 +1,62 @@
+Class3 on 26-07-2012
+
+Logic consists of Knowledge Representation and Reasoning.
+Knowledge representation takes care of information.
+According to wiki, Reasoning is the capacity to make sense of things , establish/verify facts and to change/justify practices.
+Reasoning includes Deductions and Inductions/Learning/Hypothesis formulation (like Pattern Recognition) (Everything starts with assumptions)
+Logic is a Formal Language i.e, one with a well-defined syntax and semantics.
+
+There are various types of logics.
+
+Propositional Logic:
+
+Syntax. Any word which is part of formal language is a well-formed formula  Wff is syntactically correct.
+Semantics refers to the meaning of the formulas. A language has is semantic if it formulas are clean,unique, well-defined.
+
+A Wff can be written in a tree form with variables as leaves and operations as internal nodes
+Eg : !(p->q)^r is written as 
+        ^
+    !       r
+    ->
+p       q
+
+A custom formula can have more than 2 leaves, Eg. majority.
+
+BDD (Binary Decision Diagrams)
+It is a datastructure used to represent a Boolean function.
+This represents the function as DAG (Directed Acyclic Graph)
+The no. of branches in the BDD can be reduces by suitably selecting what to write first.
+
+#Eg : Define a function and implement as BDD. one with 20 nodes and other with 100 nodes.
+Hint: Use the fact that some operators are assymetric. for eg. implication.
+
+
+CNF (Conjunctive Normal Form)
+In this form as formula is a conjunction (AND) of clauses, where a clause is a disjunction of literals. Similar to POS form (product of sum)
+
+Satisfiability problem:
+Given a wff, determine whether it is satisfiable (Also try to give the input for the satisfiability)
+It's an NP-Complete problem.
+
+#For exiercise: Think for 3 weeks then see algorithm (DPLL)
+#Exercise:
+#Given a cnf form of formula with format
+# <literals> <lines>
+# n0 n2 n3
+# .. .. ..
+# .. .. .. .. .. ..
+#
+#
+# .. .. .. ..<lastline>
+#
+#Q: Make an intelligent program which tests for the satisfiability.
+
+
+First Order Logic :
+Predicates and Quantifiers.
+There are logical symbols and non-logical(varying meaning)
+Logical symbols include ForAll ThereExists, logical connectives parentheses, other punctiations, variables, equality symbol
+Every non-logical symbols is a predicate symbol or a function symbol.
+
+Next class we'll talk about uncertain knowledge.
+
