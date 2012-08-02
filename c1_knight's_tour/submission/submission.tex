@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{geometry}
+\usepackage{enumerate}
+\usepackage[cmex10]{amsmath}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{url}
+\begin{document}
+
+    \title{Knight's Tour Problem}
+    \author{S Krishna Savant \\ 100070056}
+    \maketitle
+
+    \section{Algorithm for solving the problem}
+    
+    \begin{comment}
+    Upload a pdf file with your sample output for 
+
+    knight's tour in the format explained below.
+
+    1. Brief explanation of main algorithm/idea.
+
+    2. brief details on the prog. lang, data structures.
+
+    2. sample output as explained in class/here
+    \end{comment}
+    
+    The idea is to intelligently brute-force to find the solution. The 
+    algorithm starts from a point and keeps on exploring until all squares 
+    are covered or a dead end is found. On finding a deadend, the algorithm 
+    will backtrack the steps and go to the previous location to see if there
+    are other unexplored paths and go to the square nearest to the corners 
+    . On covering all squares, it'll
+    check whether the path is closed. If it is not closed, the algorithm will
+    again backtrack the path to find another tour.
+    
+    \section{Programming and Data Structures}
+    I implemented the program in python. The board is represented as a list of lists
+    of strings representing when the square is reached and the path traversed till now
+    is stored as a list of list of tuples , a list of tuples for each move.
+    
+    \section{Sample Output}
+    Running the program gives a closed knight\'s tour as below: \\   
+    \emph{
+    0 \ 17 \ 2 \ 8 \ 25 \ 40 \ 57 \ 51 \ 61 \ 55 \ 38 \ 23 \ 6 \ 12 \ 22 \ 7 \ 13 \ 3 \ 9 \ 24 \ 41 \ 56 \ 50 \ 60 \ 54 \ 39 \ 45 \ 62 \ 47 \ 30 \ 15 \ 5 \ 11 \ 1 \ 16 \ 33 \ 48 \ 58 \ 52 \ 46 \ 63 \ 53 \ 59 \ 49 \ 32 \ 42 \ 27 \ 44 \ 29 \ 14 \ 31 \ 37 \ 43 \ 26 \ 20 \ 35 \ 18 \ 28 \ 34 \ 19 \ 36 \ 21 \ 4 \ 10 \ 
+    }
+
+    \section{\small{References}}
+        \url{see.stanford.edu/materials/icspacs106b/H19-RecBacktrackExamples.pdf} \\
+        \url{en.wikipedia.org/wiki/Knight's_tour} \\
+        \url{www.csc.liv.ac.uk/~ped/teachadmin/algor/search.html} \\
+\end{document}
+
