@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\begin{document}
+
+\title{Solution to Problem Set 1}
+\author{S Krishna Savant \\ 100070056}
+\maketitle
+
+\section{Question 1}
+\begin{comment}
+1. Convert the following sentences into predicate calculas:
+If it does not rain on Monday, Ram will go to the mountains
+Cute is a good cat.
+All basketball players are tall.
+Some people like anchovies.
+If wishes are horses, beggars would ride.
+Nobody likes Delhi.
+\end{comment}
+
+\begin{itemize}
+    \item $\neg (\text{Rain on monday}) \implies (\text{Ram goes to mountains})$
+    \item \text{(good cat)-Cute}
+    \item $ \forall \text{ Basketball Players } \implies  \text{Tall}$
+    \item $\exists$ x $\in$ People such that x like anchovies
+    \item (Wishes = Horses) $\implies$ beggars ride.
+    \item $\neg$ ($\exists$ x such that x like Delhi)
+\end{itemize}
+
+\section{Question 2}
+\begin{comment}
+Attempt to unify the following pairs of expressions either with their most general unifiers or explain
+why they will not unify:
+p(X,Y) and p(a,Z)
+p(X,X) and p(a,b)
+Ancestor(X,Y) and Ancestor(x,Father(x))
+Ancestor(X,Father(X)) and Ancestor(Ram,Sita)
+q(X) and ¬q(a)
+\end{comment}
+
+\begin{itemize}
+    \item p(X,Y) p(a,Z)
+\end{itemize}
+\end{document}
