@@ -1,0 +1,17 @@
+Record a ~30sec speech audio and  write a Praat script to get all the MFCC values of a speech audio in Praat. Print the values.
+
+To extract MFCC and create an MFCC object(as demoed in the class) following steps have to be followed
+
+Open  the audio in Praat. You can see audio object in the praat list of objects
+Select this and click on 'spectrum' button at the right. Then click on 'To Melfilter' from the drop down. Select the default parameters in the poped up window
+Now you will get a melfilter object. Select this. Then click on 'To MFCC' on right side. Select the default parameter(coefficient as 12). 
+Now an MFCC object is created in the object list
+This MFCC object has information on MFCC values. The purpose of the script is to query it.
+
+Hint: Remember, for each window there will be 12 attributes in the MFCC vector. There should be 2 loops in the script. One should iterate through the windows and the inner loop to iterate through 12 co-effcients.
+
+If you have any question please post it here.
+
+Resources:
+
+http://www.fon.hum.uva.nl/praat/manual/Scripting.html

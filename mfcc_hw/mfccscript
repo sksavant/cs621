@@ -1,0 +1,9 @@
+noofframes= Get number of frames
+for framenumber from 1 to noofframes
+	mfcccoeff$=""
+	for mfccindex from 1 to 12
+		coeff$= Get value... framenumber*0.1 mfccindex
+		mfcccoeff$=mfcccoeff$+" "+coeff$
+	endfor
+	printline 'mfcccoeff$'
+endfor
